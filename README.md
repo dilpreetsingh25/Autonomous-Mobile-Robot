@@ -11,20 +11,13 @@ Real-time communication between Pi and ESP32 via serial or Wi-Fi
 
 Camera module for visual input (e.g., ArUco marker detection)
 
-Ultrasonic / IR sensors for obstacle avoidance
-
 ROS 2 Humble integration (if applicable)
 
 Remote monitoring and control via SSH or web interface
 
 ## 🔧 Technologies Used:
-Python / C++
-
-OpenCV for vision
-
-MicroPython / Arduino for ESP32
+Python 
 
 ROS 2 (Robot Operating System) for robotic middleware
 
-Serial communication protocols (UART)
 
