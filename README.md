@@ -1,4 +1,4 @@
-###Autonomous Mobile Robot
+### Autonomous Mobile Robot
 
 This project is an implementation of an Autonomous Mobile Robot built using a Raspberry Pi 4 and an ESP32 microcontroller. The system combines onboard vision, sensor fusion, and motor control to navigate and interact with its environment without human intervention.
 
