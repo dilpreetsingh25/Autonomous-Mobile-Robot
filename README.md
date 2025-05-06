@@ -1,7 +1,28 @@
-## Robot Package Template
+This project is an implementation of an Autonomous Mobile Robot built using a Raspberry Pi 4 and an ESP32 microcontroller. The system combines onboard vision, sensor fusion, and motor control to navigate and interact with its environment without human intervention.
 
-This is a GitHub template. You can make your own copy by clicking the green "Use this template" button.
+🧠 Key Features:
+Raspberry Pi 4 as the central processing unit
 
-It is recommended that you keep the repo/package name the same, but if you do change it, ensure you do a "Find all" using your IDE (or the built-in GitHub IDE by hitting the `.` key) and rename all instances of `my_amr` to whatever your project's name is.
+ESP32 used for low-level motor and sensor control
 
-Note that each directory currently has at least one file in it to ensure that git tracks the files (and, consequently, that a fresh clone has direcctories present for CMake to find). These example files can be removed if required (and the directories can be removed if `CMakeLists.txt` is adjusted accordingly).
+Real-time communication between Pi and ESP32 via serial or Wi-Fi
+
+Camera module for visual input (e.g., ArUco marker detection)
+
+Ultrasonic / IR sensors for obstacle avoidance
+
+ROS 2 Humble integration (if applicable)
+
+Remote monitoring and control via SSH or web interface
+
+🔧 Technologies Used:
+Python / C++
+
+OpenCV for vision
+
+MicroPython / Arduino for ESP32
+
+ROS 2 (Robot Operating System) for robotic middleware
+
+Serial communication protocols (UART)
+
