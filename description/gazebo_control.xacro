@@ -12,7 +12,7 @@
 
             <!-- Limits -->
             <max_wheel_top_speed>100</max_wheel_top_speed>
-            <max_wheel_acceleration>10</max_wheel_acceleration>
+            <max_wheel_acceleration>10.0</max_wheel_acceleration>
 
             <!-- Outout -->
             <odometry_frame>odom</odometry_frame>
@@ -23,4 +23,4 @@
 
         </plugin>
     </gazebo>
-</robot>
+</robot> 
